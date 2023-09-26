@@ -1,0 +1,9 @@
+//Optimizing fonts (using font subsetting with fontello)
+
+
+/* Include only necessary characters */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fontello.woff2') format('woff2');
+    unicode-range: U+0020-007F; /* Range of characters needed */
+}
